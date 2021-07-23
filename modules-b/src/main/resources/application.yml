@@ -1,0 +1,15 @@
+server:
+  port: 8181
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8182/eureka
+  instance:
+    instance-id: modules-b
+
+spring:
+  application:
+    name: Modules-b
